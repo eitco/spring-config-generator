@@ -25,7 +25,7 @@
             <version>@spring.ws.version@</version>
         </dependency>
         <dependency>
-            <groupId>de.eitco.cid</groupId>
+            <groupId>@project.groupId@</groupId>
             <artifactId>spring-config-generator</artifactId>
             <version>@project.version@</version>
             <optional>true</optional>
