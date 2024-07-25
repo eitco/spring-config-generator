@@ -11,9 +11,9 @@ It is integrated by adding the module as a dependency to a project:
 
 ```xml
 <dependency>
-    <groupId>de.eitco.cid</groupId>
+    <groupId>de.eitco.cicd</groupId>
     <artifactId>spring-config-generator</artifactId>
-    <version>4.0.1</version>
+    <version>4.0.2</version>
     <optional>true</optional>
 </dependency> 
 ``` 

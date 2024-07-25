@@ -9,7 +9,7 @@
     </parent>
 
 
-    <groupId>de.eitco.cid</groupId>
+    <groupId>de.eitco.cicd</groupId>
     <artifactId>spring-config-generator</artifactId>
     <version>4.0.2-SNAPSHOT</version>
 
