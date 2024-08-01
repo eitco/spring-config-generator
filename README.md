@@ -5,7 +5,7 @@
 
 # spring-config-generator
 
-This java annotation processor scans for spring annotations that mark a class as a stereotype and generates a spring configuration class containing imports for all classes marked this way.
+This [java annotation processor](https://docs.oracle.com/javase/8/docs/api/javax/annotation/processing/Processor.html) scans for spring annotations that mark a class as a stereotype and generates a spring configuration class containing imports for all classes marked this way.
 
 It is integrated by adding the module as a dependency to a project:
 
@@ -51,4 +51,4 @@ public class <your class name> {}
 The target package can be configured using the annotation processor parameter `generated.spring.config.package` which defaults to `de.eitco`.
 The class name can be configured using the annotation processor parameter `generated.spring.config.class` defaulting to `ComponentConfiguration`.
 
-The [integration tests](tree/main/src/it) pose a simple example.
+The [integration tests](./src/it) pose a simple example.
